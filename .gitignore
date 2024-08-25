@@ -41,3 +41,91 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter/Dart related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_export_environment.sh
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Miscellaneous
+.DS_Store
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+*.swn
+*.lock
+*.out
+*.bak
+*.tmp
+*.temp
+*.exe
+*.dll
+
+# Android related
+android/.gradle/
+android/app/build/
+android/captures/
+android/local.properties
+android/.idea/
+android/*.iml
+
+# iOS related
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner.xcworkspace/
+ios/build/
+ios/DerivedData/
+
+# Web related
+web/.dart_tool/
+web/build/
+
+# VS Code related
+.vscode/
+.history/
+
+# Linux related
+linux/flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/my_application.cc
+linux/flutter/my_application.h
+linux/flutter/CMakeLists.txt
+linux/flutter/snapcraft.yaml
+linux/flutter/lib/
+
+# macOS related
+macos/.flutter-plugins
+macos/.flutter-plugins-dependencies
+macos/.flutter-plugins.registrant
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Windows related
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/my_application.cc
+windows/flutter/my_application.h
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/my_application.cc
+windows/flutter/my_application.h
+windows/flutter/CMakeLists.txt
+
+# Coverage related
+coverage/
+*.lcov
